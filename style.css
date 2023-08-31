@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: violet;
+  height: 100dvh;
+  width: 100dvw;
+
+  .title{
+    margin: 40px;
+    font-size: 80px;
+    font-weight: bold;
+    color: blueviolet;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pg-box {
+    background-color: blueviolet;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(34, 34, 33, 0.425) 0px 7px 20px 0px;
+
+    .pass {
+      height: 80px;
+      width: 700px;
+      border-radius: 5px;
+      background-color: white;
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      font-size: xx-large;
+      box-shadow: rgba(34, 34, 33, 0.425) 0px 7px 20px 0px;
+    }
+
+    .range {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 15px;
+
+      .range-text {
+        font-size: xx-large;
+        color: white;
+      }
+      .pass-range {
+        height: 50px;
+        width: 50px;
+      }
+    }
+
+    .cases-box {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 15px;
+      .cases-title {
+        font-size: xx-large;
+        color: white;
+      }
+      .check-box {
+        height: 50px;
+        width: 50px;
+        box-shadow: rgba(34, 34, 33, 0.425) 0px 7px 20px 0px;
+      }
+
+      .pg-btn {
+        height: 60px;
+        width: 200px;
+        margin: auto;
+        border-radius: 5px;
+        background-color: rgb(68, 10, 122);
+        outline: none;
+        border: none;
+        font-size: xx-large;
+        color: white;
+        box-shadow: rgba(34, 34, 33, 0.425) 0px 7px 20px 0px;
+      }
+    }
+  }
+}
